@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hardcoreasainmod",
+	"version": "${version}",
+	"name": "HardcoreAsainMod",
+	"description": "This mod will make your asain parents proud!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://minecraft.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/hardcoreasainmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bucket727.hardcoreasainmod.HardcoreAsainMod"
+		],
+		"fabric-datagen": [
+			"net.bucket727.hardcoreasainmod.HardcoreAsainModDataGenerator"
+		],
+		"client": [
+			"net.bucket727.hardcoreasainmod.HardcoreAsainModClient"
+		]
+	},
+	"mixins": [
+		"hardcoreasainmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
