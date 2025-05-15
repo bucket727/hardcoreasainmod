@@ -1,5 +1,6 @@
 package net.bucket727.hardcoreasainmod;
 
+import net.bucket727.hardcoreasainmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class HardcoreAsainMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerItems();
 	}
 }
