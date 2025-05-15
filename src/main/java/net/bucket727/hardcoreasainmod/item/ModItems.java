@@ -16,6 +16,10 @@ public class ModItems {
     public static final Item CHOP_STICKS = registerItem("chop_sticks", new Item(new Item.Settings().registryKey
            (RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HardcoreAsainMod.MOD_ID,"chop_sticks")))));
 
+    // RICE BOWL ITEM
+    public static final Item RICE_BOWL = registerItem("rice_bowl", new Item(new Item.Settings().registryKey
+            (RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HardcoreAsainMod.MOD_ID, "rice_bowl")))));
+
 
     // register item helper method
     private static Item registerItem(String name, Item item) {
@@ -34,6 +38,7 @@ public class ModItems {
         // So that its in the creative tab, this makes it appear in creative tab
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(CHOP_STICKS);
+            entries.add(RICE_BOWL);
         });
     }
 
