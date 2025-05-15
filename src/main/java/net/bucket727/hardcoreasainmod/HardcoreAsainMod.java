@@ -12,6 +12,6 @@ public class HardcoreAsainMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerItems();
+		ModItems.registerModItems();
 	}
 }
