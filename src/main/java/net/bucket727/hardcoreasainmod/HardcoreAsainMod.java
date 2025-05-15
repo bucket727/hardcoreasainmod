@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 public class HardcoreAsainMod implements ModInitializer {
 	public static final String MOD_ID = "hardcoreasainmod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	// very improtant commint this is importat
+
 	@Override
 	public void onInitialize() {
 
