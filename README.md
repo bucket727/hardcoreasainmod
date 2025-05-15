@@ -1,1 +1,1 @@
-hello, this is not meant to be racist, I am asian and this is my poltical commentary on racist asian stereotypes. thank you for listening and enjoy the hardcore mod. 
+hello, this is not meant to be racist, I am asian and this is my poltical commentary on racist asian stereotypes. thank you for listening and enjoy the hardcore mod. this was made for ap csa end of the year project with my korean amigo skai boy
